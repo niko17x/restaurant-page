@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'cursive';
+    src: url('./cursive.ttf') format('trueType');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'cursive';
+    font-size: 70px;
+    background: rgb(239, 239, 239);
+}
+
+#tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+/* ? HOME.JS */
+
+#title {
+    display: grid;
+    place-content: center;
+}
+
+#title-img > img {
+    border: 5px solid rgb(185, 195, 255);
+    border-radius: 5% 0 5% 0;
+    max-width: 50%;
+    height: auto;
+}
+
+#hero-img {
+    height: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*! INTRO TEXT SECTION... */
+
+#intro-text {
+    display: grid;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.intro-title {
+    place-self: center;
+}
+
+.intro-para {
+    display: grid;
+    grid-template-rows: repeat(4, autofill);
+    place-items: center;
+}
+
+.intro-para > p {
+    font-size: 50px;
+}
+
+.intro-para > h3 {
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.intro-para > ul {
+    font-size: 40px;
+}
+
+.closing-text > p {
+    font-size: 80px;
+    text-align: center;
+}
+
+
+/* ? MENU.JS */
+
+.menu-items {
+    display: grid;
+    grid-template-rows: repeat(4, autofill);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5em;
+    margin: 2rem 2rem 4rem 0;
+}
+
+.menu-title {
+    border-bottom: 2px solid black;
+    font-size: 70px;
+}
+
+.menu-items > h3,
+.menu-items > span {
+    place-self: center;
+}
+
+.menu-items > p {
+    width: 35rem;
+    place-self: center;
+    text-align: center;
+}
+
+
+.menu-img > img {
+    height: 200px;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(185, 195, 255);
+    border-radius: 5% 0 5% 0;
+}
+
+.menu-price::before {
+    content: '$';
+}
+
+
+
+/* ? CONTACT.JS */
+
+/* TEXT BOX INPUT AREA: */
+.form {
+    display: grid;
+    place-content: center;
+}
+
+.input-form {
+    display: grid;
+}
+
+input,
+textarea {
+    width: 30rem;
+    height: 3.2rem;
+    padding: .01rem 0.7rem;
+    font-size: 2rem;
+}
+
+textarea {
+    height: 10rem;
+    resize: none;
+}
+
+button {
+    margin: 2rem 0;
+}
+
+/* TODO: WORK ON THE SUBMIT BUTTON AND THE REST OF THE STYLING. REMEMBER, THIS PROJECT ALONG WITH ALL THE OTHER PROJECTS THAT YOUR WORKING ON WILL BE ON YOUR PORTFOLIO FOR FUTURE EMPLOYERS TO POTENTIALLY SEE AND JUDGE YOUR SKILLS ON. */

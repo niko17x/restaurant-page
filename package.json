@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Replicate simply restaurant page by primarily focusing on JS and using Webpack to bundle files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niko17x/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niko17x/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/niko17x/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  }
+}
